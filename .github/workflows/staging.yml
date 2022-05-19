@@ -15,6 +15,5 @@ jobs:
       uses: SamKirkland/FTP-Deploy-Action@4.3.0
       with:
         server: s185309.gridserver.com
-        username: ${{ secrets.ftp_username }}
+        username: ${{ secrets.staging_username }}
         password: ${{ secrets.ftp_password }}
-        server-dir: /vassar-staging.chuckyatsuk.com/html/

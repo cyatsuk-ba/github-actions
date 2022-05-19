@@ -17,4 +17,3 @@ jobs:
         server: s185309.gridserver.com
         username: ${{ secrets.ftp_username }}
         password: ${{ secrets.ftp_password }}
-        server-dir: /vassar-production.chuckyatsuk.com/html/
